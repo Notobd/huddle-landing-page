@@ -163,7 +163,7 @@ h1 {
 .cta-container {
   max-width: 1280px;
   position: absolute;
-  bottom: -90px;
+  bottom: -50px;
   /* left: 150px;
   right: 150px; */
   display: flex;
@@ -275,12 +275,10 @@ footer ul {
     width: 200px;
   }
   .section-image {
-    height: 300px;
-    width: 350px;
+    height: auto;
+    width: 400px;
   }
-  /* .button-container {
-    width: 100%;
-  } */
+
   .hero-button {
     width: 20%;
     font-size: 10px;
@@ -291,21 +289,22 @@ footer ul {
   }
   .hero-description h1 {
     width: 20ch;
-    font-size: 30px;
+    font-size: 35px;
+    font-weight: 600;
   }
   .hero-description h1 + p {
     width: 50ch;
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 500;
     color: hsl(192, 100%, 16%);
   }
   .start-button {
-    width: 40%;
-    font-size: 8px;
+    width: 60%;
+    font-size: 12px;
     font-weight: 600;
     color: hsl(0, 0%, 100%);
     border: none;
-    padding: 8px;
+    padding: 10px;
   }
   .mockup-container {
     /* border: 2px solid goldenrod; */
@@ -313,7 +312,7 @@ footer ul {
   }
   .mockup-image {
     height: auto;
-    width: 300px;
+    width: 500px;
   }
   .contact-icon {
     height: 14px;
@@ -328,13 +327,13 @@ footer ul {
     gap: 5px;
   }
   .brief-summary h1 {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 600;
     color: hsl(192, 100%, 13%);
   }
   .brief-summary h1 + p {
     width: 50ch;
-    font-size: 10px;
+    font-size: 15px;
     color: hsl(193, 8%, 58%);
     font-weight: 400;
   }
@@ -350,13 +349,13 @@ footer ul {
     gap: 5px;
   }
   .brief-info h1 {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 600;
     color: hsl(192, 100%, 13%);
   }
   .brief-info h1 + p {
     width: 50ch;
-    font-size: 10px;
+    font-size: 15px;
     color: hsl(193, 8%, 58%);
     font-weight: 400;
   }
@@ -370,15 +369,21 @@ footer ul {
     gap: 5px;
   }
   .brief-insight h1 {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 600;
     color: hsl(192, 100%, 13%);
   }
   .brief-insight h1 + p {
     width: 48ch;
-    font-size: 10px;
+    font-size: 15px;
     color: hsl(193, 8%, 58%);
     font-weight: 400;
+  }
+  .cta-container {
+    bottom: -100px;
+  }
+  .cta-container > button {
+    width: 70%;
   }
   footer {
     justify-content: center;
@@ -550,12 +555,13 @@ footer ul {
     padding: 25px;
     font-style: normal;
     font-size: 20px;
+    bottom: -95px;
   }
   .cta-container > button {
-    width: 40%;
+    width: 60%;
     border-radius: 18px;
     padding: 8px;
-    font-size: 10px;
+    font-size: 12px;
   }
   footer {
     justify-content: center;
@@ -686,7 +692,7 @@ footer ul {
   }
   #growthContainer img {
     order: 1;
-    height: 150px;
+    height: 170px;
     width: 300px;
   }
   .brief-summary {
@@ -715,7 +721,7 @@ footer ul {
   }
   #conversationContainer img {
     width: 300px;
-    height: 150px;
+    height: 170px;
   }
   .brief-info h1 {
     font-size: 25px;
@@ -726,7 +732,7 @@ footer ul {
     line-height: 1.5;
     color: hsl(193, 8%, 58%);
     font-weight: 400;
-    width: 30ch;
+    width: 32ch;
   }
   #userContainer {
     flex-direction: column;
@@ -740,7 +746,7 @@ footer ul {
   }
   #userContainer img {
     order: 1;
-    height: 150px;
+    height: 170px;
     width: 300px;
   }
   .brief-insight {
@@ -755,20 +761,20 @@ footer ul {
     color: hsl(193, 8%, 58%);
     font-weight: 400;
     line-height: 1.5;
-    width: 29ch;
+    width: 31ch;
   }
   .cta-container {
     bottom: -60px;
-    padding: 30px 0 30px 0;
+    padding: 40px;
   }
   .cta-container p {
-    width: 54ch;
-    font-size: 13px;
+    width: 28ch;
+    font-size: 15px;
   }
   .cta-container button {
-    width: 40%;
+    width: 70%;
     padding: 8px;
-    font-size: 12px;
+    font-size: 10px;
   }
   footer {
     padding: 40px 20px 20px 20px;
